@@ -1,0 +1,46 @@
+name: Daily Pokemon TCG AI Run
+
+on:
+  schedule:
+    # Run every day at 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  daily-analysis:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run daily analysis and agent evaluation
+        run: python scripts/daily_runner.py
+
+      - name: Upload analysis artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-analysis-${{ github.run_number }}
+          path: analysis/output/
+          retention-days: 30
+
+      - name: Commit analysis output (if changed)
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add analysis/output/ || true
+          git diff --staged --quiet || git commit -m "chore: daily analysis update $(date -u +%Y-%m-%d)"
+          git push || true

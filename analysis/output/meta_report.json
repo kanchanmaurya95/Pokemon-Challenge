@@ -1,0 +1,703 @@
+{
+  "total_cards": 1267,
+  "total_pokemon": 1083,
+  "by_stage": {
+    "basic": 595,
+    "stage1": 345,
+    "stage2": 116
+  },
+  "by_type": {
+    "{G}": 157,
+    "{P}": 138,
+    "{W}": 137,
+    "{F}": 121,
+    "{D}": 116,
+    "{C}": 104,
+    "{R}": 103,
+    "{L}": 76,
+    "{M}": 69,
+    "\u7adc": 35
+  },
+  "ex_pokemon_count": 151,
+  "archetypes": [
+    {
+      "name": "Basic {C} Ex Rush",
+      "strategy": "Fast aggressive with high-HP basic ex attackers",
+      "key_cards": [
+        "Team Rocket's Kangaskhan ex",
+        "Bloodmoon Ursaluna ex",
+        "Terapagos ex"
+      ],
+      "type": "{C}",
+      "tier": "aggressive",
+      "card_count": 8
+    },
+    {
+      "name": "Basic {L} Ex Rush",
+      "strategy": "Fast aggressive with high-HP basic ex attackers",
+      "key_cards": [
+        "Iron Thorns ex",
+        "Pikachu ex",
+        "Pikachu ex"
+      ],
+      "type": "{L}",
+      "tier": "aggressive",
+      "card_count": 7
+    },
+    {
+      "name": "Basic {R} Ex Rush",
+      "strategy": "Fast aggressive with high-HP basic ex attackers",
+      "key_cards": [
+        "Gouging Fire ex",
+        "Hearthflame Mask Ogerpon ex",
+        "Volcanion ex"
+      ],
+      "type": "{R}",
+      "tier": "aggressive",
+      "card_count": 7
+    },
+    {
+      "name": "Basic {G} Ex Rush",
+      "strategy": "Fast aggressive with high-HP basic ex attackers",
+      "key_cards": [
+        "Iron Leaves ex",
+        "Durant ex",
+        "Mega Heracross ex"
+      ],
+      "type": "{G}",
+      "tier": "aggressive",
+      "card_count": 3
+    },
+    {
+      "name": "Basic {W} Ex Rush",
+      "strategy": "Fast aggressive with high-HP basic ex attackers",
+      "key_cards": [
+        "Wellspring Mask Ogerpon ex",
+        "Black Kyurem ex",
+        "Dondozo ex"
+      ],
+      "type": "{W}",
+      "tier": "aggressive",
+      "card_count": 6
+    },
+    {
+      "name": "Basic {F} Ex Rush",
+      "strategy": "Fast aggressive with high-HP basic ex attackers",
+      "key_cards": [
+        "Cornerstone Mask Ogerpon ex",
+        "Regirock ex",
+        "Mega Hawlucha ex"
+      ],
+      "type": "{F}",
+      "tier": "aggressive",
+      "card_count": 6
+    },
+    {
+      "name": "Basic {D} Ex Rush",
+      "strategy": "Fast aggressive with high-HP basic ex attackers",
+      "key_cards": [
+        "Okidogi ex",
+        "Munkidori ex",
+        "Mega Absol ex"
+      ],
+      "type": "{D}",
+      "tier": "aggressive",
+      "card_count": 4
+    },
+    {
+      "name": "Basic {P} Ex Rush",
+      "strategy": "Fast aggressive with high-HP basic ex attackers",
+      "key_cards": [
+        "Latias ex",
+        "XerneasEX",
+        "Team Rocket's Mewtwo ex"
+      ],
+      "type": "{P}",
+      "tier": "aggressive",
+      "card_count": 5
+    },
+    {
+      "name": "Basic \u7adc Ex Rush",
+      "strategy": "Fast aggressive with high-HP basic ex attackers",
+      "key_cards": [
+        "Tatsugiri ex",
+        "Miraidon ex",
+        "Mega Latias ex"
+      ],
+      "type": "\u7adc",
+      "tier": "aggressive",
+      "card_count": 3
+    },
+    {
+      "name": "Basic {M} Ex Rush",
+      "strategy": "Fast aggressive with high-HP basic ex attackers",
+      "key_cards": [
+        "Hop\u2019s Zacian ex",
+        "Zacian ex",
+        "Genesect ex"
+      ],
+      "type": "{M}",
+      "tier": "aggressive",
+      "card_count": 6
+    },
+    {
+      "name": "Stage 2 {F} Control",
+      "strategy": "Evolution-based with powerful late-game attacks",
+      "key_cards": [
+        "Greninja ex",
+        "Conkeldurr",
+        "Mamoswine ex"
+      ],
+      "type": "{F}",
+      "tier": "control",
+      "card_count": 9
+    },
+    {
+      "name": "Stage 2 {W} Control",
+      "strategy": "Evolution-based with powerful late-game attacks",
+      "key_cards": [
+        "Feraligatr",
+        "Carracosta",
+        "Seismitoad"
+      ],
+      "type": "{W}",
+      "tier": "control",
+      "card_count": 8
+    },
+    {
+      "name": "Stage 2 {R} Control",
+      "strategy": "Evolution-based with powerful late-game attacks",
+      "key_cards": [
+        "Incineroar ex",
+        "Cinderace ex",
+        "Blaziken ex"
+      ],
+      "type": "{R}",
+      "tier": "control",
+      "card_count": 6
+    },
+    {
+      "name": "Stage 2 {G} Control",
+      "strategy": "Evolution-based with powerful late-game attacks",
+      "key_cards": [
+        "Rillaboom",
+        "Decidueye",
+        "Arboliva ex"
+      ],
+      "type": "{G}",
+      "tier": "control",
+      "card_count": 7
+    },
+    {
+      "name": "Stage 2 \u7adc Control",
+      "strategy": "Evolution-based with powerful late-game attacks",
+      "key_cards": [
+        "Dragapult ex",
+        "Salamence ex",
+        "Mega Dragonite ex"
+      ],
+      "type": "\u7adc",
+      "tier": "control",
+      "card_count": 4
+    },
+    {
+      "name": "Stage 2 {P} Control",
+      "strategy": "Evolution-based with powerful late-game attacks",
+      "key_cards": [
+        "Dusknoir"
+      ],
+      "type": "{P}",
+      "tier": "control",
+      "card_count": 1
+    },
+    {
+      "name": "Stage 2 {D} Control",
+      "strategy": "Evolution-based with powerful late-game attacks",
+      "key_cards": [
+        "Hydreigon ex",
+        "Tyranitar",
+        "Team Rocket's Nidoking ex"
+      ],
+      "type": "{D}",
+      "tier": "control",
+      "card_count": 9
+    },
+    {
+      "name": "Stage 2 {C} Control",
+      "strategy": "Evolution-based with powerful late-game attacks",
+      "key_cards": [
+        "Slaking ex",
+        "Larry's Staraptor"
+      ],
+      "type": "{C}",
+      "tier": "control",
+      "card_count": 2
+    },
+    {
+      "name": "Stage 2 {M} Control",
+      "strategy": "Evolution-based with powerful late-game attacks",
+      "key_cards": [
+        "Hop\u2019s Corviknight",
+        "Steven's Metagross ex",
+        "Tinkaton"
+      ],
+      "type": "{M}",
+      "tier": "control",
+      "card_count": 6
+    },
+    {
+      "name": "Stage 2 {L} Control",
+      "strategy": "Evolution-based with powerful late-game attacks",
+      "key_cards": [
+        "Magnezone",
+        "Mega Eelektross ex",
+        "Luxray ex"
+      ],
+      "type": "{L}",
+      "tier": "control",
+      "card_count": 4
+    },
+    {
+      "name": "Spread Damage",
+      "strategy": "Distribute damage across opponent's board for multi-KOs",
+      "key_cards": [
+        "Scrafty",
+        "Hippowdon",
+        "Leafeon",
+        "Sinistcha ex",
+        "Glaceon"
+      ],
+      "type": "multi",
+      "tier": "spread",
+      "card_count": 275
+    }
+  ],
+  "top_attackers": [
+    {
+      "card_id": 107,
+      "card_name": "Palafin ex",
+      "stage_type": "Stage 1 Pok\u00e9mon",
+      "hp": 340.0,
+      "type": "{W}",
+      "move_name": "Giga Impact",
+      "damage_num": 250,
+      "cost_num": 1,
+      "damage_per_cost": 250.0,
+      "score": 125.97666666666667,
+      "is_ex": true,
+      "rule": "Pok\u00e9mon ex"
+    },
+    {
+      "card_id": 699,
+      "card_name": "Tinkaton",
+      "stage_type": "Stage 2 Pok\u00e9mon",
+      "hp": 160.0,
+      "type": "{M}",
+      "move_name": "Windup Swing",
+      "damage_num": 240,
+      "cost_num": 1,
+      "damage_per_cost": 240.0,
+      "score": 120.82666666666667,
+      "is_ex": false,
+      "rule": NaN
+    },
+    {
+      "card_id": 797,
+      "card_name": "Ceruledge",
+      "stage_type": "Stage 1 Pok\u00e9mon",
+      "hp": 140.0,
+      "type": "{R}",
+      "move_name": "Infernal Slash",
+      "damage_num": 220,
+      "cost_num": 1,
+      "damage_per_cost": 220.0,
+      "score": 110.75333333333333,
+      "is_ex": false,
+      "rule": NaN
+    },
+    {
+      "card_id": 40,
+      "card_name": "Greninja ex",
+      "stage_type": "Stage 2 Pok\u00e9mon",
+      "hp": 310.0,
+      "type": "{F}",
+      "move_name": "Shinobi Blade",
+      "damage_num": 170,
+      "cost_num": 1,
+      "damage_per_cost": 170.0,
+      "score": 85.71666666666667,
+      "is_ex": true,
+      "rule": "Pok\u00e9mon ex"
+    },
+    {
+      "card_id": 129,
+      "card_name": "Decidueye",
+      "stage_type": "Stage 2 Pok\u00e9mon",
+      "hp": 150.0,
+      "type": "{G}",
+      "move_name": "Power Shot",
+      "damage_num": 170,
+      "cost_num": 1,
+      "damage_per_cost": 170.0,
+      "score": 85.61,
+      "is_ex": false,
+      "rule": NaN
+    },
+    {
+      "card_id": 884,
+      "card_name": "Medicham",
+      "stage_type": "Stage 1 Pok\u00e9mon",
+      "hp": 120.0,
+      "type": "{F}",
+      "move_name": "Seventh Kick",
+      "damage_num": 150,
+      "cost_num": 1,
+      "damage_per_cost": 150.0,
+      "score": 75.53,
+      "is_ex": false,
+      "rule": NaN
+    },
+    {
+      "card_id": 232,
+      "card_name": "Slaking ex",
+      "stage_type": "Stage 2 Pok\u00e9mon",
+      "hp": 340.0,
+      "type": "{C}",
+      "move_name": "Great Swing",
+      "damage_num": 280,
+      "cost_num": 2,
+      "damage_per_cost": 140.0,
+      "score": 71.06666666666668,
+      "is_ex": true,
+      "rule": "Pok\u00e9mon ex"
+    },
+    {
+      "card_id": 1074,
+      "card_name": "Diggersby",
+      "stage_type": "Stage 1 Pok\u00e9mon",
+      "hp": 150.0,
+      "type": "{C}",
+      "move_name": "Earthquake",
+      "damage_num": 140,
+      "cost_num": 1,
+      "damage_per_cost": 140.0,
+      "score": 70.52,
+      "is_ex": false,
+      "rule": NaN
+    },
+    {
+      "card_id": 678,
+      "card_name": "Mega Lucario ex",
+      "stage_type": "Stage 1 Pok\u00e9mon",
+      "hp": 340.0,
+      "type": "{F}",
+      "move_name": "Mega Brave",
+      "damage_num": 270,
+      "cost_num": 2,
+      "damage_per_cost": 135.0,
+      "score": 68.53666666666668,
+      "is_ex": true,
+      "rule": "Mega Pok\u00e9mon ex"
+    },
+    {
+      "card_id": 381,
+      "card_name": "Cynthia's Garchomp ex",
+      "stage_type": "Stage 2 Pok\u00e9mon",
+      "hp": 330.0,
+      "type": "{F}",
+      "move_name": "Draconic Buster",
+      "damage_num": 260,
+      "cost_num": 2,
+      "damage_per_cost": 130.0,
+      "score": 66.0,
+      "is_ex": true,
+      "rule": "Pok\u00e9mon ex"
+    },
+    {
+      "card_id": 189,
+      "card_name": "Flygon ex",
+      "stage_type": "Stage 2 Pok\u00e9mon",
+      "hp": 310.0,
+      "type": "{F}",
+      "move_name": "Reversing Storm",
+      "damage_num": 130,
+      "cost_num": 1,
+      "damage_per_cost": 130.0,
+      "score": 65.59666666666666,
+      "is_ex": true,
+      "rule": "Pok\u00e9mon ex"
+    },
+    {
+      "card_id": 51,
+      "card_name": "Palafin",
+      "stage_type": "Stage 1 Pok\u00e9mon",
+      "hp": 150.0,
+      "type": "{W}",
+      "move_name": "Vanguard Punch",
+      "damage_num": 130,
+      "cost_num": 1,
+      "damage_per_cost": 130.0,
+      "score": 65.49,
+      "is_ex": false,
+      "rule": NaN
+    },
+    {
+      "card_id": 224,
+      "card_name": "Annihilape",
+      "stage_type": "Stage 2 Pok\u00e9mon",
+      "hp": 140.0,
+      "type": "{F}",
+      "move_name": "Tantrum",
+      "damage_num": 130,
+      "cost_num": 1,
+      "damage_per_cost": 130.0,
+      "score": 65.48333333333333,
+      "is_ex": false,
+      "rule": NaN
+    },
+    {
+      "card_id": 934,
+      "card_name": "Centiskorch",
+      "stage_type": "Stage 1 Pok\u00e9mon",
+      "hp": 130.0,
+      "type": "{R}",
+      "move_name": "Billowing Heat Wave",
+      "damage_num": 130,
+      "cost_num": 1,
+      "damage_per_cost": 130.0,
+      "score": 65.47666666666667,
+      "is_ex": false,
+      "rule": NaN
+    },
+    {
+      "card_id": 398,
+      "card_name": "Lurantis",
+      "stage_type": "Stage 1 Pok\u00e9mon",
+      "hp": 120.0,
+      "type": "{G}",
+      "move_name": "Petal Blade Dance",
+      "damage_num": 130,
+      "cost_num": 1,
+      "damage_per_cost": 130.0,
+      "score": 65.47,
+      "is_ex": false,
+      "rule": NaN
+    },
+    {
+      "card_id": 954,
+      "card_name": "Luxray ex",
+      "stage_type": "Stage 2 Pok\u00e9mon",
+      "hp": 310.0,
+      "type": "{L}",
+      "move_name": "Volt Strike",
+      "damage_num": 250,
+      "cost_num": 2,
+      "damage_per_cost": 125.0,
+      "score": 63.45666666666666,
+      "is_ex": true,
+      "rule": "Pok\u00e9mon ex"
+    },
+    {
+      "card_id": 311,
+      "card_name": "Hop\u2019s Cramorant",
+      "stage_type": "Basic Pok\u00e9mon",
+      "hp": 110.0,
+      "type": "{C}",
+      "move_name": "Fickle Spitting",
+      "damage_num": 120,
+      "cost_num": 1,
+      "damage_per_cost": 120.0,
+      "score": 60.43333333333333,
+      "is_ex": false,
+      "rule": NaN
+    },
+    {
+      "card_id": 772,
+      "card_name": "Mega Gengar ex",
+      "stage_type": "Stage 2 Pok\u00e9mon",
+      "hp": 350.0,
+      "type": "{D}",
+      "move_name": "Void Gale",
+      "damage_num": 230,
+      "cost_num": 2,
+      "damage_per_cost": 115.0,
+      "score": 58.42333333333333,
+      "is_ex": true,
+      "rule": "Mega Pok\u00e9mon ex"
+    },
+    {
+      "card_id": 995,
+      "card_name": "Haxorus",
+      "stage_type": "Stage 2 Pok\u00e9mon",
+      "hp": 170.0,
+      "type": "\u7adc",
+      "move_name": "Dragon Pulse",
+      "damage_num": 230,
+      "cost_num": 2,
+      "damage_per_cost": 115.0,
+      "score": 58.303333333333335,
+      "is_ex": false,
+      "rule": NaN
+    },
+    {
+      "card_id": 904,
+      "card_name": "Mega Dragonite ex",
+      "stage_type": "Stage 2 Pok\u00e9mon",
+      "hp": 370.0,
+      "type": "\u7adc",
+      "move_name": "Ryuno Glide",
+      "damage_num": 330,
+      "cost_num": 3,
+      "damage_per_cost": 110.0,
+      "score": 56.23666666666667,
+      "is_ex": true,
+      "rule": "Mega Pok\u00e9mon ex"
+    },
+    {
+      "card_id": 728,
+      "card_name": "Inteleon",
+      "stage_type": "Stage 2 Pok\u00e9mon",
+      "hp": 150.0,
+      "type": "{W}",
+      "move_name": "Water Shot",
+      "damage_num": 110,
+      "cost_num": 1,
+      "damage_per_cost": 110.0,
+      "score": 55.43,
+      "is_ex": false,
+      "rule": NaN
+    },
+    {
+      "card_id": 932,
+      "card_name": "Mega Emboar ex",
+      "stage_type": "Stage 2 Pok\u00e9mon",
+      "hp": 380.0,
+      "type": "{R}",
+      "move_name": "Crimson Blast",
+      "damage_num": 320,
+      "cost_num": 3,
+      "damage_per_cost": 106.66666666666667,
+      "score": 54.54666666666667,
+      "is_ex": true,
+      "rule": "Mega Pok\u00e9mon ex"
+    },
+    {
+      "card_id": 754,
+      "card_name": "Mega Latias ex",
+      "stage_type": "Basic Pok\u00e9mon",
+      "hp": 280.0,
+      "type": "\u7adc",
+      "move_name": "Illusory Impulse",
+      "damage_num": 300,
+      "cost_num": 3,
+      "damage_per_cost": 100.0,
+      "score": 51.086666666666666,
+      "is_ex": true,
+      "rule": "Mega Pok\u00e9mon ex"
+    },
+    {
+      "card_id": 210,
+      "card_name": "Pikachu ex",
+      "stage_type": "Basic Pok\u00e9mon",
+      "hp": 200.0,
+      "type": "{L}",
+      "move_name": "Topaz Bolt",
+      "damage_num": 300,
+      "cost_num": 3,
+      "damage_per_cost": 100.0,
+      "score": 51.03333333333333,
+      "is_ex": true,
+      "rule": "Pok\u00e9mon ex"
+    },
+    {
+      "card_id": 229,
+      "card_name": "Hydreigon ex",
+      "stage_type": "Stage 2 Pok\u00e9mon",
+      "hp": 330.0,
+      "type": "{D}",
+      "move_name": "Crashing Headbutt",
+      "damage_num": 200,
+      "cost_num": 2,
+      "damage_per_cost": 100.0,
+      "score": 50.82,
+      "is_ex": true,
+      "rule": "Pok\u00e9mon ex"
+    },
+    {
+      "card_id": 326,
+      "card_name": "Blaziken ex",
+      "stage_type": "Stage 2 Pok\u00e9mon",
+      "hp": 320.0,
+      "type": "{R}",
+      "move_name": "Smolder-sault",
+      "damage_num": 200,
+      "cost_num": 2,
+      "damage_per_cost": 100.0,
+      "score": 50.81333333333333,
+      "is_ex": true,
+      "rule": "Pok\u00e9mon ex"
+    },
+    {
+      "card_id": 121,
+      "card_name": "Dragapult ex",
+      "stage_type": "Stage 2 Pok\u00e9mon",
+      "hp": 320.0,
+      "type": "\u7adc",
+      "move_name": "Phantom Dive",
+      "damage_num": 200,
+      "cost_num": 2,
+      "damage_per_cost": 100.0,
+      "score": 50.81333333333333,
+      "is_ex": true,
+      "rule": "Pok\u00e9mon ex"
+    },
+    {
+      "card_id": 147,
+      "card_name": "Cradily",
+      "stage_type": "Stage 2 Pok\u00e9mon",
+      "hp": 150.0,
+      "type": "{G}",
+      "move_name": "Miasma Wind",
+      "damage_num": 100,
+      "cost_num": 1,
+      "damage_per_cost": 100.0,
+      "score": 50.4,
+      "is_ex": false,
+      "rule": NaN
+    },
+    {
+      "card_id": 153,
+      "card_name": "Cinderace ex",
+      "stage_type": "Stage 2 Pok\u00e9mon",
+      "hp": 320.0,
+      "type": "{R}",
+      "move_name": "Flare Strike",
+      "damage_num": 280,
+      "cost_num": 3,
+      "damage_per_cost": 93.33333333333333,
+      "score": 47.72,
+      "is_ex": true,
+      "rule": "Pok\u00e9mon ex"
+    },
+    {
+      "card_id": 241,
+      "card_name": "Vaporeon ex",
+      "stage_type": "Stage 1 Pok\u00e9mon",
+      "hp": 280.0,
+      "type": "{W}",
+      "move_name": "Aquamarine",
+      "damage_num": 280,
+      "cost_num": 3,
+      "damage_per_cost": 93.33333333333333,
+      "score": 47.693333333333335,
+      "is_ex": true,
+      "rule": "Pok\u00e9mon ex"
+    }
+  ],
+  "trainer_categories": {
+    "draw": 25,
+    "search": 70,
+    "energy_acceleration": 71,
+    "disruption": 116
+  }
+}
