@@ -1,0 +1,43 @@
+{
+  "name": "Turbo Basic-Ex Aggro",
+  "description": "Fast aggressive deck using high-HP Basic Pokemon-ex with strong single-energy attacks. Focuses on early pressure and consistent damage output with minimal setup.",
+  "strategy": "aggressive",
+  "win_condition": "Take 6 prizes quickly by KO-ing opposing Pokemon with efficient Basic-ex attackers before opponent sets up their board.",
+  "backup_plan": "If primary attacker is KO'd, pivot to secondary attacker on bench. Use gusting supporters to target weak bench Pokemon for easy prizes.",
+  "deck_list": {
+    "pokemon": [
+      {"card_id": 44, "name": "Bloodmoon Ursaluna ex", "count": 2, "role": "primary_attacker", "rationale": "260 HP Basic-ex with heavy damage. Needs colorless energy so flexible."},
+      {"card_id": 46, "name": "Gouging Fire ex", "count": 2, "role": "secondary_attacker", "rationale": "230 HP Basic Ancient ex with strong attack."},
+      {"card_id": 37, "name": "Iron Thorns ex", "count": 2, "role": "tech_attacker", "rationale": "230 HP, Initialization ability shuts down opponent's Rule Box abilities."},
+      {"card_id": 24, "name": "Team Rocket's Kangaskhan ex", "count": 2, "role": "backup_attacker", "rationale": "230 HP colorless Basic-ex, versatile."},
+      {"card_id": 43, "name": "Eevee", "count": 2, "role": "setup", "rationale": "Low retreat Basic for early game flexibility."},
+      {"card_id": 36, "name": "Morpeko", "count": 2, "role": "utility", "rationale": "Snack Seek ability for deck filtering + Pick and Stick for energy acceleration."}
+    ],
+    "trainers": [
+      {"card_id": null, "name": "Professor's Research", "count": 4, "role": "draw", "rationale": "Best draw supporter - draw 7 cards."},
+      {"card_id": null, "name": "Boss's Orders", "count": 3, "role": "gust", "rationale": "Force opponent's bench Pokemon active for easy KOs."},
+      {"card_id": null, "name": "Nest Ball", "count": 4, "role": "search", "rationale": "Search Basic Pokemon to bench consistently."},
+      {"card_id": null, "name": "Ultra Ball", "count": 4, "role": "search", "rationale": "Search any Pokemon with discard cost."},
+      {"card_id": null, "name": "Switch", "count": 3, "role": "mobility", "rationale": "Free retreat for heavy attackers."},
+      {"card_id": null, "name": "Iono", "count": 4, "role": "draw_disruption", "rationale": "Draw + opponent hand disruption in late game."},
+      {"card_id": null, "name": "Arven", "count": 2, "role": "search", "rationale": "Search Item + Tool cards."},
+      {"card_id": null, "name": "Energy Search", "count": 3, "role": "energy_search", "rationale": "Find energy when needed."},
+      {"card_id": null, "name": "Pokemon Catcher", "count": 2, "role": "gust", "rationale": "Coin-flip gust without supporter use."},
+      {"card_id": null, "name": "Heavy Ball", "count": 2, "role": "search", "rationale": "Search Pokemon with 3+ retreat cost."}
+    ],
+    "energy": [
+      {"card_id": 2, "name": "Basic {R} Energy", "count": 8, "role": "primary_energy", "rationale": "Powers Gouging Fire ex."},
+      {"card_id": 4, "name": "Basic {L} Energy", "count": 5, "role": "secondary_energy", "rationale": "Powers Iron Thorns ex."},
+      {"card_id": 9, "name": "Boomerang Energy", "count": 2, "role": "special_energy", "rationale": "Recyclable energy for sustained attacks."},
+      {"card_id": 11, "name": "Mist Energy", "count": 2, "role": "protection", "rationale": "Protects attacker from effects."},
+      {"card_id": 14, "name": "Spiky Energy", "count": 0, "role": "deterrent", "rationale": "Punishes opponent for attacking into active."}
+    ]
+  },
+  "total_cards": 60,
+  "key_interactions": [
+    "Iron Thorns ex shuts down opponent's abilities while attacking",
+    "Morpeko accelerates energy from discard to power up bench attackers",
+    "Boomerang Energy returns after discard for sustained aggression",
+    "Boss's Orders + high damage = pick off weak bench targets"
+  ]
+}
